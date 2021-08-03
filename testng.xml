@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="API Test Suit">
+    <test name="TC_Rest_Assured_Code_Challenge">
+    <classes>
+        <class name="api_test.TC_Rest_Assured_Code_Challenge">
+        <methods>
+            <include name="PrintAllCharactersInformationFromPOJO"/>
+            <include name="GetWalterBirthday"/>
+        </methods>
+        </class>
+    </classes>
+    </test>
+</suite>
