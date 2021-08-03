@@ -12,6 +12,8 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import pojo.GetAllCharactersInformation;
 
+import java.util.Arrays;
+
 public class TC_Rest_Assured_Code_Challenge {
 
     @BeforeTest
@@ -33,7 +35,7 @@ public class TC_Rest_Assured_Code_Challenge {
                 .response();
 
         GetAllCharactersInformation[] All_Characters_Information = response.getBody().as(GetAllCharactersInformation[].class);
-        assertThat(All_Characters_Information.length, not(0));
+        assertThat(Arrays.toString(All_Characters_Information), not(emptyString()));
         for(GetAllCharactersInformation Characters_Information:  All_Characters_Information){
             System.out.println(Characters_Information);
         }
