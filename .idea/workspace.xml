@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="51f178f4-ace5-4f17-969f-46c60bf841e9" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1wBcvxSsxhfxS9b6VvgzeJfGeg2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager" selected="TestNG.TC_Rest_Assured_Code_Challenge.GetWalterBirthday">
+    <configuration name="TC_Rest_Assured_Code_Challenge" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="restassured_challenge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pojo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="api_test.TC_Rest_Assured_Code_Challenge" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC_Rest_Assured_Code_Challenge.GetWalterBirthday" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="restassured_challenge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pojo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="api_test.TC_Rest_Assured_Code_Challenge" />
+      <option name="METHOD_NAME" value="GetWalterBirthday" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC_Rest_Assured_Code_Challenge.PrintAllCharactersInformationFromPOJO" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="restassured_challenge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pojo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="api_test.TC_Rest_Assured_Code_Challenge" />
+      <option name="METHOD_NAME" value="PrintAllCharactersInformationFromPOJO" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC_Rest_Assured_Code_Challenge.test01" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="restassured_challenge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pojo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="api_test.TC_Rest_Assured_Code_Challenge" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.TC_Rest_Assured_Code_Challenge.GetWalterBirthday" />
+        <item itemvalue="TestNG.TC_Rest_Assured_Code_Challenge.PrintAllCharactersInformationFromPOJO" />
+        <item itemvalue="TestNG.TC_Rest_Assured_Code_Challenge.test01" />
+        <item itemvalue="TestNG.TC_Rest_Assured_Code_Challenge" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="51f178f4-ace5-4f17-969f-46c60bf841e9" name="Changes" comment="" />
+      <created>1627935660744</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1627935660744</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
