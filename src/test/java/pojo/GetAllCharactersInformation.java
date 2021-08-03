@@ -25,7 +25,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 		"category",
 		"better_call_saul_appearance"
 })
-@Generated("jsonschema2pojo")
+@Generated("Rest_Assured_Code_Challenge")
 public class GetAllCharactersInformation {
 
 	@JsonProperty("char_id")

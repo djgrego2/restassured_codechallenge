@@ -1,6 +1,9 @@
 package api_test;
 
 import static io.restassured.RestAssured.*;
+
+import io.restassured.builder.RequestSpecBuilder;
+import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import static org.hamcrest.Matchers.*;
 import static org.hamcrest.MatcherAssert.assertThat;
@@ -15,8 +18,8 @@ public class TC_Rest_Assured_Code_Challenge {
     public void setUp(){
         baseURI = "https://www.breakingbadapi.com";
         basePath = "/api";
-        //filters(new RequestLoggingFilter(), new ResponseLoggingFilter());
-        //requestSpecification = new RequestSpecBuilder().setContentType(ContentType.JSON).build();
+        //filters(new RequestLoggingFilter(), new ResponseLoggingFilter()); // LOGS
+        requestSpecification = new RequestSpecBuilder().setContentType(ContentType.JSON).build();
 
     }
 
@@ -30,6 +33,7 @@ public class TC_Rest_Assured_Code_Challenge {
                 .response();
 
         GetAllCharactersInformation[] All_Characters_Information = response.getBody().as(GetAllCharactersInformation[].class);
+        assertThat(All_Characters_Information.length, not(0));
         for(GetAllCharactersInformation Characters_Information:  All_Characters_Information){
             System.out.println(Characters_Information);
         }
